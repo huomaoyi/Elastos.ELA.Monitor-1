@@ -1,0 +1,72 @@
+{
+  "mainchain": {
+    "rpc": {
+      "host": "127.0.0.1",
+      "port": "13336"
+    },
+    "restful": {
+      "host": "127.0.0.1",
+      "port": "13334"
+    },
+    "jarserver": {
+      "host": "127.0.0.1",
+      "port": "8989"
+    }
+  },
+  "didchain": {
+    "rpc": {
+      "host": "127.0.0.1",
+      "port": "13606"
+    },
+    "restful": {
+      "host": "127.0.0.1",
+      "port": "13604"
+    },
+    "jarserver": {
+      "host": "127.0.0.1",
+      "port": "8989"
+    }
+  },
+  "tokenchain": {
+    "rpc": {
+      "host": "127.0.0.1",
+      "port": "13616"
+    },
+    "restful": {
+      "host": "127.0.0.1",
+      "port": "13614"
+    },
+    "jarserver": {
+      "host": "127.0.0.1",
+      "port": "8989"
+    }
+  },
+  "neochain": {
+    "rpc": {
+      "host": "127.0.0.1",
+      "port": "13626"
+    },
+    "restful": {
+      "host": "127.0.0.1",
+      "port": "13624"
+    },
+    "jarserver": {
+      "host": "127.0.0.1",
+      "port": "8989"
+    }
+  },
+  "arbiter": {
+    "rpc": {
+      "host": "127.0.0.1",
+      "port": "13536"
+    },
+    "restful": {
+      "host": "127.0.0.1",
+      "port": "13534"
+    },
+    "jarserver": {
+      "host": "127.0.0.1",
+      "port": "8989"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "Configuration": {
+    "Version": 0,
+    "Log": {
+      "Path": "./logs",
+      "Level": 1,
+      "MaxPerLogSizeMb": 5,
+      "MaxLogsSizeMb": 10
+    },
+    "Nodes": {
+      "MainChain": {
+        "Host": "127.0.0.1",
+        "RpcPort": 13336,
+        "RestfulPort": 13334,
+        "JarServer": {
+          "Binary": "127.0.0.1",
+          "Host": "127.0.0.1",
+          "Port": 8989
+        }
+      }
+    }
+  }
+}

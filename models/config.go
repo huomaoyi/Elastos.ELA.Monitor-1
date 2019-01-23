@@ -1,0 +1,34 @@
+package models
+
+type Config struct {
+	MonitorConfig Configuration `json:"Configuration"`
+}
+
+type LogConfig struct {
+	Path string 			`json:"Path"`
+	Level uint8    			`json:"Level"`
+	MaxPerLogSizeMb int64	`json:"MaxPerLogSizeMb"`
+	MaxLogsSizeMb int64		`json:"MaxLogsSizeMb"`
+}
+
+type Configuration struct {
+	Version  int	`json:"Version"`
+	Log *LogConfig	`json:"Log"`
+	Nodes *Nodes	`json:"Nodes"`
+}
+
+type Nodes struct {
+	MainChain *MainChain	`json:"MainChain"`
+}
+
+type MainChain struct {
+	Host string				`json:"Host"`
+	RpcPort int16			`json:"RpcPort"`
+	RestfulPort int16		`json:"RestfulPort"`
+	JarServer *JarServer	`json:"JarServer"`
+}
+
+type JarServer struct {
+	Url
+	Binary string `json:"Binary"`
+}
