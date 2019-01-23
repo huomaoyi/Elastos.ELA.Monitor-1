@@ -1,0 +1,6 @@
+/idea/*
+.idea/
+logs/*
+vendor/*
+Elastos.ELA.Monitor.exe
+.git
